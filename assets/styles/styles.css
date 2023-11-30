@@ -1,0 +1,64 @@
+:root {
+    --brand-color-primary: #ff0008;
+    --brand-color-secondary: rgb(87, 86, 86);
+    --brand-color-complement: #f38080;    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headernav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+#can{
+    color: var(--brand-color-primary);
+}
+
+#bridge{
+    color: var(--brand-color-secondary);
+}
+
+.menuMain{
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.c-image{
+    height: 100%;
+    object-fit: cover;
+}
+
+.c-item{    
+    height: 400px;
+}
+
+.servicios{
+    color: var(--brand-color-primary);
+    border-radius: 1rem;
+}
+
+.servicios:hover{
+    color: white;
+    background-color: var(--brand-color-primary);
+    border-radius: 1rem;
+}
+
+.carruselMain{
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    text-justify: center;
+    color: var(--brand-color-primary);
+    font: "Poppins";
+}
