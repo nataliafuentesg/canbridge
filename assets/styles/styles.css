@@ -1,3 +1,4 @@
+
 :root {
     --brand-color-primary: #ff0008;
     --brand-color-secondary: rgb(87, 86, 86);
@@ -19,6 +20,7 @@
 
 #can{
     color: var(--brand-color-primary);
+    font-weight: bolder;
 }
 
 #bridge{
@@ -36,7 +38,7 @@
 }
 
 .c-item{    
-    height: 400px;
+    height: 300px;
 }
 
 .servicios{
@@ -60,5 +62,66 @@
     justify-content: center;
     text-justify: center;
     color: var(--brand-color-primary);
-    font: "Poppins";
+    font-family: "Dancing Script";
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.cardsService{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.cardSer{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px;
+    display: flex;
+    justify-content: space-between;
+    border: #ff0008;
+    border-style: solid;
+    border-width: 1.5px;
+}
+
+.cardSer:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card-title {
+    color: var(--brand-color-primary);
+    font-family: "Poppins";
+    font-weight: bold;
+    text-align: center;
+    font-size: medium;
+}
+
+.card-body-index{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.img-card{
+    height: 200px;
+    object-fit: cover;
+}
+.card-text{
+    font-family: "Poppins";
+    font-size: small;
+    color: black;
+    text-align: center;
+}
+
+.btn-main-cards{
+    background-color: var(--brand-color-primary);
+    color: white;
+    border: #ff0008;
+    border: 1px;   
+}
+
+.btn-main-cards:hover{
+    background-color: white;
+    color: var(--brand-color-primary);
+    border: var(--brand-color-primary);
+    box-shadow: rgba(255, 0, 0, 0.16) 0px 2px 5px;    
 }
