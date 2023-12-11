@@ -82,6 +82,8 @@
 .shapetext{    
     background-color: var(--brand-color-primary);  
     margin: 2rem; 
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .textShape{
@@ -89,14 +91,17 @@
     align-items: center;
     color: #fff;
     font-family: 'Poppins';
-    font-size: medium;
+    font-size: large;
+    font-weight: bold;
     text-align: center;
+    padding: 2rem;
 
 }
 
 .cardsService {
     display: flex;
     justify-content: center;
+    justify-content: space-between;
     gap: 2rem;
     flex-wrap: wrap;
 }
@@ -192,6 +197,13 @@
     justify-content: center;
     color: #fff;
     font-size: 60px;
+}
+
+.cardSedes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
 }
 
 footer {
