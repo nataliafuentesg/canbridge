@@ -280,3 +280,34 @@ footer {
 .ftco-footer-social li a:hover {
     color: #fff;
 }
+
+.textService{
+    padding: 3rem;
+}
+
+.img-cardtext{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.cantext{
+    font-weight: bold;
+    color: #ff0008;
+}
+
+.bridgetext{
+    font-weight: bold;
+    color: var(--brand-color-secondary);
+}
+
+th{
+    background-color: #ff0008 !important;
+    padding: 10px !important;
+    color: #fff !important;
+    text-align: center;
+}
+
+.tablaPrecios{
+    padding: 3rem !important;
+}
