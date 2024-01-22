@@ -2,192 +2,218 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@100;200;300;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="../styles/styles.css">
-    <title>Guardería Canina | CanBridge</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@100;200;300;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <title>Guardería Canina | CanBridge</title>
 </head>
 
 <body>
-    <header>
-        <div class="headernav">
-            <div class="logo">
-                <h1 id="can">Can<span id="bridge">Bridge</span></h1>
-            </div>
-            <div class="navbarmain">
-                <nav class="navbar navbar-expand-lg menuMain">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="../../index.html">Inicio</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link servicios" aria-current="page" href="#">Guardería Canina</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link servicios" href="./adiestramiento.html">Adiestramiento Canino</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link servicios" href="./apoyoemocional.html">Perros de Terapia y Apoyo
-                                        Emocional</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle servicios" href="#" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Galeria
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Sede Chía</a></li>
-                                        <li><a class="dropdown-item" href="#">Sede Bogotá</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Eventos</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <!-- <form class="d-flex" role="search">
+  <header>
+    <div class="headernav">
+      <div class="logo">
+        <h1 id="can">Can<span id="bridge">Bridge</span></h1>
+      </div>
+      <div class="navbarmain">
+        <nav class="navbar navbar-expand-lg menuMain">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link servicios" aria-current="page" href="#">Guardería Canina</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link servicios" href="./adiestramiento.html">Adiestramiento Canino</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link servicios" href="./apoyoemocional.html">Perros de Terapia y Apoyo
+                    Emocional</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle servicios" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Galeria
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Sede Chía</a></li>
+                    <li><a class="dropdown-item" href="#">Sede Bogotá</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Eventos</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <!-- <form class="d-flex" role="search">
                           <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
                           <button class="btn btn-outline-success" type="submit">Buscar</button>
                         </form> -->
-                        </div>
-                    </div>
-                </nav>
             </div>
-        </div>
-
-    </header>
-
-    <main>
-
-        <h2 class="titulo">Guardería Canina</h2>
-        <div class="clearfix textService">
-          <img src="../images/beautiful-shot-different-dog-breeds-resting.jpg" class="col-md-6 float-md-end mb-3 ms-md-3 img-cardtext" alt="...">
-        
-          <p>
-            Durante la estadía en <span class="cantext">CAN</span><span class="bridgetext">BRIDGE</span> guardería canina  tu mascota estará libre rodeada de otros perros. Durante el día se le realizaran actividades de recreación, socialización, actividad cardiovascular y caminatas; actividades que le darán a tu mascota todo el entretenimiento y diversión para que esté completamente  feliz.
-            Para la noche contamos con cómodas y abrigados dormitorios  individuales de 2X5 Mts, que cuentan con cama, colchoneta, cobija, zona de bebida y comida que le ofrecerán el bienestar que el necesita para que pueda descansar tranquilamente.
-          </p>
-        
-          <p>
-            En <span class="cantext">CAN</span><span class="bridgetext">BRIDGE</span> guardería canina ofrecemos dos modalidades de servicio  para las necesidades tuyas y de tu mascota:
-            <ul>
-              <li>
-                Guardería canina: si vas  de vacaciones o tienes una salida fuera de la ciudad o del país y no puedes cuidar de tu mascota por un tiempo determinado, en <span class="cantext">CAN</span><span class="bridgetext">BRIDGE</span>  nos hacemos cargo de él y nos encargamos de que se sienta como en casa, este servicio incluye transporte de recogida y de entrega* y todas las actividades que se desarrollan dentro de la guardería.      </p>
-    
-              </li>
-              <li>
-                Colegio canino: si por razones de trabajo, por que el necesita recreación y socializacion o por que no quieres dejar a tu mascota sola en casa y no puedes hacerte cargo de el durante la semana, en <span class="cantext">CAN</span><span class="bridgetext">BRIDGE</span> cuidaremos de tu mascota para que pase días de mucha diversión. Para este servicio ofrecemos 2 modalidades:
-                <ul>
-                  <li>
-                    internado: tu perro sera recogido los lunes en la mañana y sera devuelto el viernes en la tarde*, durante la semana dormirá dentro de la guardería y se le desarrollaran todas las actividades que se hacen dentro de nuestras instalaciones.
-                  </li>
-                  <li>
-                    con ruta diaria: tu perro sera recogido todos los días de lunes a viernes por las mañanas y sera devuelto por las tardes, al igual que en las otras modalidades  incluye todas las actividades de recreación para tu mascota.*
-    
-                  </li>
-                </ul>
-              </li>
-            </ul>
-        
-          <p>        
-            NOTA: esta modalidad de servicio esta 100% recomendada también para perros hiperactivos o  con problemas de conducta como falta de sociabilidad, estrés, ansiedad, destrozos en casa, miedos fobias etc.       
-             * Nuestra ruta de transporte  canino cuenta con una cobertura en Bogotá ( zona norte desde la Calle 200 hasta Calle 63 entre Circunvalar y Avenida Boyacá. ), Chía y  Cajicá.       </p>
-        </div>
-        <section>
-          <h2 class="titulo">Tabla de Precios</h2>
-          <div class="tablaPrecios">
-            <table class="table table-bordered border-danger">
-              <thead>
-               <tr>
-                 <th>Plan</th>
-                 <th>Bogotá y Chía</th>
-               </tr>
-              </thead>
-              <tbody>
-               <tr>
-                 <td>Día de guardería</td>
-                 <td>$47.000</td>
-               </tr>
-               <tr>
-                 <td>+ de 10 días de Guardería</td>
-                 <td>$40.000</td>
-               </tr>
-               <tr>
-                 <td>Colegio de lunes a viernes con ruta diaria</td>
-                 <td>$590.000</td>
-               </tr>
-               <tr>
-                 <td>Colegio de lunes a viernes internado</td>
-                 <td>$415.000</td>
-               </tr>
-               <tr>
-                 <td>Colegio 3 veces por semana</td>
-                 <td>$460.000</td>
-               </tr>
-               <tr>
-                 <td>Colegio 2 veces por semana</td>
-                 <td>$360.000</td>
-               </tr>
-              </tbody>
-             </table>
           </div>
-          
-        </section>
-        
-      </main>
-    
+        </nav>
+      </div>
+    </div>
 
-    <footer class="footer-07">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-12 text-center">
-                    <h2 class="footer-heading"><a href="#" class="logo">CanBridge</a></h2>
-                    <p class="menu">
-                        <a href="#">Inicio</a>
-                        <a href="#">Guarderia Canina</a>
-                        <a href="#">Adiestramiento Canino</a>
-                        <a href="#">Perros de terapia y Apoyo Emocional</a>
-                    </p>
-                    <ul class="ftco-footer-social p-0">
-                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
-                                title="Twitter"><span><i class="bi bi-twitter-x"></i></span></a></li>
-                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
-                                title="Facebook"><span><i class="bi bi-facebook"></i></span></a></li>
-                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
-                                title="Instagram"><span><i class="bi bi-instagram"></i></span></a></li>
-                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
-                                title="WhatsApp"><span><i class="bi bi-whatsapp"></i></span></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-md-12 text-center">
-                    <p class="copyright">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;
-                        <script>document.write(new Date().getFullYear());</script> Todos los derechos reservados
-                    </p>
-                </div>
-            </div>
+  </header>
+
+  <main>
+
+    <h2 class="titulo">Guardería Canina</h2>
+    <div class="clearfix textService">
+      <img src="../images/beautiful-shot-different-dog-breeds-resting.jpg"
+        class="col-md-6 float-md-end mb-3 ms-md-3 img-cardtext" alt="...">
+
+      <p>
+        Durante la estadía en <span class="cantext">CAN</span><span class="bridgetext">BRIDGE</span> guardería canina tu
+        mascota estará libre rodeada de otros perros. Durante el día se le realizaran actividades de recreación,
+        socialización, actividad cardiovascular y caminatas; actividades que le darán a tu mascota todo el
+        entretenimiento y diversión para que esté completamente feliz.
+        Para la noche contamos con cómodas y abrigados dormitorios individuales de 2X5 Mts, que cuentan con cama,
+        colchoneta, cobija, zona de bebida y comida que le ofrecerán el bienestar que el necesita para que pueda
+        descansar tranquilamente.
+      </p>
+
+      <p>
+        En <span class="cantext">CAN</span><span class="bridgetext">BRIDGE</span> guardería canina ofrecemos dos
+        modalidades de servicio para las necesidades tuyas y de tu mascota:
+      <ul>
+        <li>
+          Guardería canina: si vas de vacaciones o tienes una salida fuera de la ciudad o del país y no puedes cuidar de
+          tu mascota por un tiempo determinado, en <span class="cantext">CAN</span><span
+            class="bridgetext">BRIDGE</span> nos hacemos cargo de él y nos encargamos de que se sienta como en casa,
+          este servicio incluye transporte de recogida y de entrega* y todas las actividades que se desarrollan dentro
+          de la guardería. </p>
+
+        </li>
+        <li>
+          Colegio canino: si por razones de trabajo, por que el necesita recreación y socializacion o por que no quieres
+          dejar a tu mascota sola en casa y no puedes hacerte cargo de el durante la semana, en <span
+            class="cantext">CAN</span><span class="bridgetext">BRIDGE</span> cuidaremos de tu mascota para que pase días
+          de mucha diversión. Para este servicio ofrecemos 2 modalidades:
+          <ul>
+            <li>
+              internado: tu perro sera recogido los lunes en la mañana y sera devuelto el viernes en la tarde*, durante
+              la semana dormirá dentro de la guardería y se le desarrollaran todas las actividades que se hacen dentro
+              de nuestras instalaciones.
+            </li>
+            <li>
+              con ruta diaria: tu perro sera recogido todos los días de lunes a viernes por las mañanas y sera devuelto
+              por las tardes, al igual que en las otras modalidades incluye todas las actividades de recreación para tu
+              mascota.*
+
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <p>
+        NOTA: esta modalidad de servicio esta 100% recomendada también para perros hiperactivos o con problemas de
+        conducta como falta de sociabilidad, estrés, ansiedad, destrozos en casa, miedos fobias etc.
+        * Nuestra ruta de transporte canino cuenta con una cobertura en Bogotá ( zona norte desde la Calle 200 hasta
+        Calle 63 entre Circunvalar y Avenida Boyacá. ), Chía y Cajicá. </p>
+    </div>
+    <section>
+      <h2 class="titulo">Tabla de Precios</h2>
+      <div class="tablaPrecios">
+        <table class="table table-bordered border-danger">
+          <thead>
+            <tr>
+              <th>Plan</th>
+              <th>Bogotá y Chía</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Día de guardería</td>
+              <td>$47.000</td>
+            </tr>
+            <tr>
+              <td>+ de 10 días de Guardería</td>
+              <td>$40.000</td>
+            </tr>
+            <tr>
+              <td>Colegio de lunes a viernes con ruta diaria</td>
+              <td>$590.000</td>
+            </tr>
+            <tr>
+              <td>Colegio de lunes a viernes internado</td>
+              <td>$415.000</td>
+            </tr>
+            <tr>
+              <td>Colegio 3 veces por semana</td>
+              <td>$460.000</td>
+            </tr>
+            <tr>
+              <td>Colegio 2 veces por semana</td>
+              <td>$360.000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer class="footer-07">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-12 text-center">
+          <h2 class="footer-heading"><a href="#" class="logo">CanBridge</a></h2>
+          <p class="menu">
+            <a href="#">Inicio</a>
+            <a href="#">Guarderia Canina</a>
+            <a href="#">Adiestramiento Canino</a>
+            <a href="#">Perros de terapia y Apoyo Emocional</a>
+          </p>
+          <ul class="ftco-footer-social p-0">
+            <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span><i
+                    class="bi bi-twitter-x"></i></span></a></li>
+            <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span><i
+                    class="bi bi-facebook"></i></span></a></li>
+            <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span><i
+                    class="bi bi-instagram"></i></span></a></li>
+            <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="WhatsApp"><span><i
+                    class="bi bi-whatsapp"></i></span></a></li>
+          </ul>
         </div>
-    </footer>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-12 text-center">
+          <p class="copyright">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> Todos los derechos reservados
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+  <div class="whatsapp-button">
+    <a href="https://wa.me/+573173663438" target="_blank">
+      <i class="bi bi-whatsapp chat"></i>
+    </a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
