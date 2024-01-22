@@ -311,3 +311,25 @@ th{
 .tablaPrecios{
     padding: 3rem !important;
 }
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 1000; 
+    font-size: 2.5rem;
+    background-color: #fff;
+    /* padding: .3rem; */
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.chat {
+    color: red;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+    
+}
