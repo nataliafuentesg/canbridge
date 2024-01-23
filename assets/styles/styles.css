@@ -59,7 +59,6 @@
 .titulo {
     display: flex;
     justify-content: center;
-    text-justify: center;
     color: var(--brand-color-primary);
     font-family: "Dancing Script";
     font-weight: bold;
@@ -71,7 +70,6 @@
 .titulo2 {
     display: flex;
     justify-content: center;
-    text-justify: center;
     color: var(--brand-color-primary);
     font-family: "Dancing Script";
     font-weight: bold;
@@ -80,14 +78,14 @@
     text-align: center;
 }
 
-.shapetext{    
-    background-color: var(--brand-color-primary);  
-    margin: 2rem; 
+.shapetext {
+    background-color: var(--brand-color-primary);
+    margin: 2rem;
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.textShape{
+.textShape {
     display: flex;
     align-items: center;
     color: #fff;
@@ -102,7 +100,6 @@
 .cardsService {
     display: flex;
     justify-content: center;
-    justify-content: space-between;
     gap: 2rem;
     flex-wrap: wrap;
 }
@@ -160,47 +157,51 @@
     border: var(--brand-color-primary);
     box-shadow: rgba(255, 0, 0, 0.16) 0px 2px 5px;
 }
-.keywords{
+
+.keywords {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
     justify-content: space-around;
 }
-.k1{
-   border-radius: 50% ;
-   height: 150px;
-   width: 150px;
-   background-color: #ff0008; 
-   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-.list1{
+
+.k1 {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-color: #ff0008;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     display: flex;
-    flex-direction: column; 
-    align-items: center;   
-    
+    align-items: center;
+    justify-content: center;
 }
-.textk{
+
+.list1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.textk {
     font-family: 'Poppins';
     font-size: medium;
     text-wrap: wrap;
     font-weight: bold;
-    color: var(--brand-color-secondary);    
+    color: var(--brand-color-secondary);
     text-align: center;
     padding-top: .5rem;
 }
 
-.icon1{
+.icon1 {
     display: flex;
     justify-content: center;
     color: #fff;
     font-size: 60px;
 }
 
-.cardSedes{
+.cardSedes {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -282,49 +283,49 @@ footer {
     color: #fff;
 }
 
-.textService{
+.textService {
     padding: 3rem;
 }
 
-.img-cardtext{
+.img-cardtext {
     height: 400px;
     width: 400px;
     object-fit: cover;
 }
 
-.cantext{
+.cantext {
     font-weight: bold;
     color: #ff0008;
 }
 
-.bridgetext{
+.bridgetext {
     font-weight: bold;
     color: var(--brand-color-secondary);
 }
 
-th{
+th {
     background-color: #ff0008 !important;
     padding: 10px !important;
     color: #fff !important;
     text-align: center;
 }
 
-.tablaPrecios{
+.tablaPrecios {
     padding: 3rem !important;
 }
 
 .whatsapp-button {
     position: fixed;
-    bottom: 20px; 
-    right: 20px; 
-    z-index: 1000; 
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
     font-size: 2.5rem;
     background-color: #fff;
     border-radius: 50%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-.whatsapp-button:hover{
+.whatsapp-button:hover {
     background-color: var(--brand-color-secondary);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -336,64 +337,72 @@ th{
     align-items: center;
     justify-content: center;
     text-decoration: none !important;
-    
+
 }
 
-.chat:hover{
+.chat:hover {
     color: #fff;
 }
 
-.linkChat{
+.linkChat {
     text-decoration: none;
 }
 
 @media (max-width: 768px) {
 
-    .keywords{
+    .keywords {
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
         display: flex;
-        flex-wrap: wrap;    
+        flex-wrap: wrap;
         width: fit-content;
     }
 
-    .k1{
-        border-radius: 50% ;
+    .k1 {
+        border-radius: 50%;
         height: 70px;
         width: 70px;
-        background-color: #ff0008; 
+        background-color: #ff0008;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         display: flex;
         align-items: center;
         justify-content: center;
-     }
-     .list1{
-         display: flex;
-         flex-direction: column; 
-         align-items: center;   
-         
-     }
-     .textk{
-         font-family: 'Poppins';
-         font-size: 10px;
-         text-wrap: wrap;
-         font-weight: bold;
-         color: var(--brand-color-secondary);    
-         text-align: center;
-         padding-top: .5rem;
-     }
-     
-     .icon1{
-         display: flex;
-         justify-content: center;
-         color: #fff;
-         font-size: 30px;
-     }
+    }
 
-     .img-cardtext {
+    .list1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .textk {
+        font-family: 'Poppins';
+        font-size: 10px;
+        text-wrap: wrap;
+        font-weight: bold;
+        color: var(--brand-color-secondary);
+        text-align: center;
+        padding-top: .5rem;
+    }
+
+    .icon1 {
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .img-cardtext {
         max-width: 300px;
         max-height: 300px;
         object-fit: cover;
     }
-     
+
+    .cardsService {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
 }
