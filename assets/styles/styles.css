@@ -65,6 +65,7 @@
     font-weight: bold;
     font-size: 3rem;
     padding: 1rem;
+    text-align: center;
 }
 
 .titulo2 {
@@ -344,4 +345,55 @@ th{
 
 .linkChat{
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+
+    .keywords{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;    
+        width: fit-content;
+    }
+
+    .k1{
+        border-radius: 50% ;
+        height: 70px;
+        width: 70px;
+        background-color: #ff0008; 
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     .list1{
+         display: flex;
+         flex-direction: column; 
+         align-items: center;   
+         
+     }
+     .textk{
+         font-family: 'Poppins';
+         font-size: 10px;
+         text-wrap: wrap;
+         font-weight: bold;
+         color: var(--brand-color-secondary);    
+         text-align: center;
+         padding-top: .5rem;
+     }
+     
+     .icon1{
+         display: flex;
+         justify-content: center;
+         color: #fff;
+         font-size: 30px;
+     }
+
+     .img-cardtext {
+        max-width: 300px;
+        max-height: 300px;
+        object-fit: cover;
+    }
+     
 }
