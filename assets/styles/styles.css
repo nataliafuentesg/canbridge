@@ -423,4 +423,8 @@ th {
         flex-wrap: wrap;
     }
 
+    .textService {
+        padding: 0.5rem;
+    }
+
 }
