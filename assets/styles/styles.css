@@ -366,6 +366,11 @@ th {
     justify-content: flex-end;
 }
 
+.cardButtons{
+    display: flex;
+    justify-content: space-between;
+}
+
 @media (max-width: 768px) {
 
     .keywords {
@@ -425,6 +430,12 @@ th {
 
     .textService {
         padding: 0.5rem;
+    }
+
+    .cardButtons{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
     }
 
 }
