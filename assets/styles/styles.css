@@ -10,12 +10,16 @@
     box-sizing: border-box;
 }
 
-.headernav {
+/* .headernav {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
 
-}
+} */
+
+
+  
+  
 
 #can {
     color: var(--brand-color-primary);
@@ -49,6 +53,13 @@
     color: white;
     background-color: var(--brand-color-primary);
     border-radius: 1rem;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--brand-color-secondary) !important;
+}
+.nav-link.active:hover {
+    color: white !important;
 }
 
 .carruselMain {
@@ -370,6 +381,10 @@ th {
     display: flex;
     justify-content: space-between;
 }
+
+
+
+
 
 @media (max-width: 768px) {
 
