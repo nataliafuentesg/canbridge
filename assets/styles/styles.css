@@ -17,7 +17,17 @@
 
 } */
 
+.btnPrecios{
+    background-color: var(--brand-color-secondary);
+    color: white;
+}
 
+.btnPrecios:hover{    
+    color: var(--brand-color-primary);
+    border-color: #ff0008;
+    box-shadow: rgba(255, 0, 0, 0.16) 0px 2px 5px;
+
+}
   
   
 
