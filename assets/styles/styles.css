@@ -369,6 +369,22 @@ th {
     text-decoration: none;
 }
 
+.whatsapp-message {
+    position: fixed;
+    bottom: calc(20px + 70px); /* Ajusta según sea necesario para evitar solapamiento con el botón */
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    display: none;
+    z-index: 999;
+  }
+  
+  .whatsapp-message.show {
+    display: block;
+  }
+
 .subtitle{
     font-style: italic;
     font-weight: bold;
