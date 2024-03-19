@@ -373,7 +373,7 @@ th {
     position: fixed;
     bottom: calc(20px + 70px); /* Ajusta según sea necesario para evitar solapamiento con el botón */
     right: 20px;
-    background-color: #25d366;
+    background-color: var(--brand-color-secondary);
     color: #fff;
     padding: 10px 15px;
     border-radius: 20px;
