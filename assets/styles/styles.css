@@ -51,7 +51,7 @@
 }
 
 .c-item {
-    height: 300px;
+    height: 400px;
 }
 
 .servicios {
@@ -75,6 +75,7 @@
 .carruselMain {
     border-radius: 2rem;
     overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .titulo {
@@ -154,8 +155,9 @@
 }
 
 .img-card {
-    height: 150px;
+    height: 200px !important;
     object-fit: cover;
+    align-items: center;
 }
 
 .card-text {
@@ -189,8 +191,8 @@
 
 .k1 {
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     background-color: #ff0008;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     display: flex;
