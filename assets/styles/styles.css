@@ -57,6 +57,7 @@
 .servicios {
     color: var(--brand-color-primary);
     border-radius: 1rem;
+    font-weight: bold;
 }
 
 .servicios:hover {
