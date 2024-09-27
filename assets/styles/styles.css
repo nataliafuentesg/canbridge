@@ -17,19 +17,19 @@
 
 } */
 
-.btnPrecios{
+.btnPrecios {
     background-color: var(--brand-color-secondary);
     color: white;
 }
 
-.btnPrecios:hover{    
+.btnPrecios:hover {
     color: var(--brand-color-primary);
     border-color: #ff0008;
     box-shadow: rgba(255, 0, 0, 0.16) 0px 2px 5px;
 
 }
-  
-  
+
+
 
 #can {
     color: var(--brand-color-primary);
@@ -66,9 +66,11 @@
     border-radius: 1rem;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
     color: var(--brand-color-secondary) !important;
 }
+
 .nav-link.active:hover {
     color: white !important;
 }
@@ -374,7 +376,8 @@ th {
 
 .whatsapp-message {
     position: fixed;
-    bottom: calc(20px + 70px); /* Ajusta según sea necesario para evitar solapamiento con el botón */
+    bottom: calc(20px + 70px);
+    /* Ajusta según sea necesario para evitar solapamiento con el botón */
     right: 20px;
     background-color: var(--brand-color-secondary);
     color: #fff;
@@ -382,38 +385,71 @@ th {
     border-radius: 20px;
     display: none;
     z-index: 999;
-  }
-  
-  .whatsapp-message.show {
-    display: block;
-  }
+}
 
-.subtitle{
+.whatsapp-message.show {
+    display: block;
+}
+
+.subtitle {
     font-style: italic;
     font-weight: bold;
     color: var(--brand-color-primary);
 }
 
-.nota{
+.nota {
     font-weight: bold;
     font-size: 1rem;
 }
 
-.navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
     display: flex;
     flex-wrap: inherit;
     align-items: center;
     justify-content: flex-end;
 }
 
-.cardButtons{
+.cardButtons {
     display: flex;
     justify-content: space-between;
 }
 
 
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
     color: #ff0008;
+}
+
+.footer-line-separator {
+    border: none;
+    border-top: 1px solid #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #666;
+}
+
+.desarrollado-por {
+    font-size: 15px;
+    color: #666;
+    text-align: right;
+}
+
+.desarrollado-por a {
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.desarrollado-por a:hover {
+    text-decoration: underline;
 }
 
 
@@ -480,10 +516,16 @@ th {
         padding: 0.5rem;
     }
 
-    .cardButtons{
+    .cardButtons {
         display: flex;
         flex-direction: column;
         gap: 1rem;
+    }
+
+    .desarrollado-por {
+        font-size: 15px;
+        color: #666;
+        text-align: center;
     }
 
 }
