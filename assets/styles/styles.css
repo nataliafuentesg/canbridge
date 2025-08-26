@@ -425,4 +425,34 @@ img {
   .nav-pills {
     gap: .5rem;
   }
-  
+
+/* Carrusel de logos */
+.logos-swiper{ padding:8px 0 18px; overflow:hidden; }
+.logos-swiper .swiper-wrapper{ align-items:center; }
+.logos-swiper .swiper-slide{
+  width:100% !important;              /* CLAVE para slidesPerView:1 */
+  display:flex; align-items:center; justify-content:center;
+}
+.logo-slide{
+  max-height:90px; width:auto; opacity:.9;
+  filter:grayscale(100%);
+  transition:transform .25s ease, filter .25s ease, opacity .25s ease;
+}
+.logo-slide:hover{ transform:scale(1.05); filter:grayscale(0); opacity:1; }
+
+@media (min-width:992px){ .logo-slide{ max-height:110px; } }
+
+/* Bullets */
+.logos-swiper .swiper-pagination-bullet{
+  background:rgba(0,0,0,.25); width:10px; height:6px; border-radius:6px; transition:.3s;
+}
+.logos-swiper .swiper-pagination-bullet-active{ background:var(--brand-red); width:24px; }
+
+.logos-swiper .swiper-pagination {
+    position: relative;   /* que se acomode debajo, no encima */
+    margin-top: 18px;     /* espacio entre logos y bullets */
+    text-align: center;
+  }
+
+@media (min-width:992px){ .logo-slide{ max-height:84px; } }
+
