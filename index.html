@@ -1,539 +1,320 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@100;200;300;700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./assets/styles/owl.carousel.css">
-  <link rel="stylesheet" href="./assets/styles/owl.theme.green.css">
-  <link rel="stylesheet" href="./assets/styles/styles.css">
-  <script src="./assets/js/jquery.min.js"></script>
-  <script src="./assets/js/owl.carousel.min.js"></script>
-  <link rel="shortcut icon" href="./assets/images/Logo Vec.png" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Guardería Canina, Colegio Canino en Bogotá y Chía | CanBridge</title>
-  <meta name="description"
-    content="Colegio Canino Campestre ofrecemos servicios de guardería canina, adiestramiento canino y entrenamiento de perros de terapia y apoyo emocional en Chía y Bogotá.">
+  <meta name="description" content="Guardería y colegio canino con adiestramiento positivo y perros de terapia. Dos sedes: Bogotá y Chía. Ruta puerta a puerta." />
 
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@200;300;500;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- App CSS (asegúrate que el archivo exista exactamente en esta ruta) -->
+  <link rel="stylesheet" href="./assets/styles/styles.css" />
+
+  <link rel="shortcut icon" href="./assets/images/Logo Vec.png" type="image/x-icon" />
+  <!-- OG -->
+  <meta property="og:title" content="CanBridge | Guardería y Colegio Canino" />
+  <meta property="og:description" content="Más juego, menos tiempo en ruta. Dos sedes: Bogotá y Chía." />
+  <meta property="og:image" content="./assets/images/og-cover.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_CO" />
 </head>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-EFPBDEPQCG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-
-  gtag('config', 'G-EFPBDEPQCG');
-</script>
-
 <body>
+  <!-- NAVBAR -->
   <header>
-    <div class="headernav">
-      <div class="navbarmain">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container">
-            <a class="navbar-brand" href="#">
-              <h1 id="can">Can<span id="bridge">Bridge</span></h1>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link servicios active" aria-current="page" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link servicios" aria-current="page"
-                    href="./assets/pages/guarderia-canina.html">Guardería Canina</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link servicios" href="./assets/pages/adiestramiento-canino.html">Adiestramiento
-                    Canino</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link servicios" href="./assets/pages/perros-de-apoyo-emocional.html">Perros de Terapia y
-                    Apoyo Emocional</a>
-                </li>
-              </ul>
-            </div>
-
-
-          </div>
-        </nav>
-      </div>
-    </div>
-
-    <div id="carouselExampleIndicators" class="carousel slide carruselMain">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active c-item">
-          <img src="./assets/images/banner1.jpeg" class="d-block w-100 c-image" alt="...">
-        </div>
-        <div class="carousel-item c-item">
-          <img src="./assets/images/banner2.jpeg" class="d-block w-100 c-image" alt="...">
-        </div>
-        <div class="carousel-item c-item">
-          <img src="./assets/images/banner6.jpeg" class="d-block w-100 c-image" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </header>
-
-  <main>
-    <div class="keywords">
-      <div class="list1">
-        <div class="k1">
-          <i class="bi bi-house icon1"></i>
-        </div>
-        <h3 class="textk">Cuidado Profesional</h3>
-      </div>
-
-      <div class="list1">
-        <div class="k1">
-          <i class="bi bi-heart icon1"></i>
-        </div>
-        <h3 class="textk">Entrenamiento Positivo</h3>
-      </div>
-
-      <div class="list1">
-        <div class="k1">
-          <i class="bi bi-house icon1"></i>
-        </div>
-        <h3 class="textk">Ambiente Seguro</h3>
-      </div>
-
-      <div class="list1">
-        <div class="k1">
-          <i class="bi bi-truck icon1"></i>
-        </div>
-        <h3 class="textk">Ruta Puerta a Puerta</h3>
-      </div>
-
-      <div class="list1">
-        <div class="k1">
-          <i class="bi bi-house icon1"></i>
-        </div>
-        <h3 class="textk">Atención Personalizada</h3>
-      </div>
-    </div>
-    <div class="nuestrosServicios">
-      <h1 class="titulo">Nuestros Servicios</h1>
-      <div class="container cardsService">
-        <div class="card cardSer" style="width: 20rem;">
-          <img src="./assets/images/guarderia-canina-bogota.jpg" class="card-img-top img-card"
-            alt="Adiestramiento Canino en chia y bogotá">
-          <div class="card-body card-body-index h-100">
-            <h1 class="card-title">Adiestramiento Canino Profesional en Chía y Bogotá</h1>
-            <p class="card-text">
-              ¿Quieres mejorar la conducta de tu perro y disfrutar de una convivencia más armoniosa? Nuestro
-              adiestramiento canino especializado en Chía y Bogotá está diseñado para enseñarle a tu perro desde
-              comandos básicos hasta técnicas avanzadas de obediencia. Nuestro equipo de entrenadores profesionales
-              utiliza métodos positivos y efectivos para fortalecer el vínculo entre tú y tu mascota, garantizando
-              resultados duraderos. ¡Descubre cómo nuestro adiestramiento puede mejorar la vida de tu perro y la tuya
-              hoy mismo!
-            </p>
-            <div class="cardButtons">
-              <a href="./assets/pages/adiestramiento-canino.html" class="btn btn-main-cards">Más información</a>
-              <button type="button" class="btn btnPrecios" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                Precios
-              </button>
-            </div>
-
-          </div>
-        </div>
-        <div class="card cardSer" style="width: 20rem;">
-          <img src="./assets/images/apoyo-emocional-terapia.jpg" class="card-img-top img-card"
-            alt="perro en terapia y apoyo emocional">
-          <div class="card-body card-body-index h-100">
-            <h1 class="card-title">Perros de Terapia y Apoyo Emocional en Bogotá y Chía</h1>
-            <p class="card-text"> Mejora tu bienestar emocional con el apoyo incondicional de nuestros perros de terapia
-              especializados. Estos perros están entrenados para brindar consuelo y apoyo emocional a personas que
-              enfrentan estrés, ansiedad, depresión y otros retos emocionales. Descubre cómo nuestros programas de
-              terapia canina en Bogotá y Chía pueden transformar vidas con la ayuda de compañeros peludos altamente
-              capacitados.
-            </p>
-
-            <div class="cardButtons">
-              <a href="./assets/pages/perros-de-apoyo-emocional.html" class="btn btn-main-cards">Más información</a>
-              <button type="button" class="btn btnPrecios" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                Precios
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="card cardSer" style="width: 20rem;">
-          <img src="./assets/images/guarderia-canina-bogota-chia.jpeg" class="card-img-top img-card"
-            alt="guardería canina bogotá y chia">
-          <div class="card-body card-body-index h-100">
-            <h1 class="card-title">Guardería Canina en Bogotá y Chía</h1>
-            <p class="card-text"> Dale a tu perro el mejor cuidado mientras estás ocupado. Nuestra guardería canina en
-              Bogotá y Chía cuenta con dos sedes campestres con amplias zonas verdes para una socialización segura y
-              saludable. Ofrecemos instalaciones de alta calidad, supervisión profesional y actividades diarias para
-              garantizar que tu mascota disfrute de un día equilibrado, lleno de juegos y cuidado. ¡Tu perro merece lo
-              mejor en un ambiente seguro y divertido!
-            </p>
-            <div class="cardButtons">
-              <a href="./assets/pages/guarderia-canina.html" class="btn btn-main-cards">Más información</a>
-              <button type="button" class="btn btnPrecios" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Precios
-              </button>
-            </div>
-
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-
-    <!-- Modal1 -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="card-title" id="exampleModalLabel">Precios</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="tablaPrecios">
-              <table class="table table-bordered border-danger">
-                <thead>
-                  <tr>
-                    <th>Plan</th>
-                    <th>Bogotá y Chía</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Día de guardería</td>
-                    <td>$56.000</td>
-                  </tr>
-                  <tr>
-                    <td>+ de 15 días de Guardería</td>
-                    <td>$50.000</td>
-                  </tr>
-                  <tr>
-                    <td>Colegio de lunes a viernes con ruta diaria</td>
-                    <td>$678.000</td>
-                  </tr>
-                  <tr>
-                    <td>Colegio 3 veces por semana</td>
-                    <td>$540.000</td>
-                  </tr>
-                  <tr>
-                    <td>Colegio 2 veces por semana</td>
-                    <td>$425.000</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal2 -->
-    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="card-title" id="exampleModalLabel">Precios</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="tablaPrecios">
-              <table class="table table-bordered border-danger">
-                <thead>
-                  <tr>
-                    <th>Plan</th>
-                    <th>Bogotá y Chía</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Mensual 2 veces X semana (8 sesiones)</td>
-                    <td>$440.000</td>
-                  </tr>
-                  <tr>
-                    <td>Mensual 3 veces X semana (12 sesiones)</td>
-                    <td>$540.000</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal3 -->
-    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="card-title" id="exampleModalLabel">Precios</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="tablaPrecios">
-              <table class="table table-bordered border-danger">
-                <thead>
-                  <tr>
-                    <th>Plan</th>
-                    <th>Bogotá y Chía</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Mensual 2 veces X semana (8 sesiones)</td>
-                    <td>$505.000</td>
-                  </tr>
-                  <tr>
-                    <td>Mensual 3 veces X semana (12 sesiones)</td>
-                    <td>$620.000</td>
-                  </tr>
-                  <tr>
-                    <td>Mensual 5 veces X semana</td>
-                    <td>$758.000</td>
-                  </tr>
-                  <!-- <tr>
-                    <td>Colegio de lunes a viernes internado</td>
-                    <td>$495.000</td>
-                  </tr> -->
-
-                </tbody>
-              </table>
-            </div>
-
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="textMain">
-      <h2 class="titulo2">Nuestro Compromiso: Más Tiempo de Diversión para tu Perro</h2>
-      <div class="shapetext">
-        <h3 class="textShape">En Canbridge, nos diferenciamos por ofrecer un servicio exclusivo con dos sedes
-          estratégicamente ubicadas. Esto nos permite reducir al mínimo el tiempo que tu perro pasa en el vehículo,
-          asegurando que disfrute de más horas de juego y socialización. Tu mascota pasará menos tiempo en el transporte
-          y más tiempo divirtiéndose en nuestros espacios seguros y amplios. ¡Nos comprometemos a que cada día en
-          nuestra guardería sea lleno de diversión y bienestar para tu perro!</h3>
-      </div>
-    </div>
-
-    <div class="nuestrosServicios">
-      <h1 class="titulo">Experiencias Inolvidables: Nuestros Perros en Eventos Especiales</h1>
-      <div class="container cardsService">
-        <div class="card cardSer" style="width: 20rem;">
-          <img src="./assets/images/circodelsol14.jpg" class="card-img-top img-card" alt="Adiestramiento Canino">
-          <div class="card-body card-body-index h-100">
-            <h1 class="card-title">Circo del Sol en Bogotá</h1>
-            <p class="card-text"> Nuestros adorables perros de terapia y apoyo emocional han sido parte integral del
-              espectáculo del Circo del Sol en Bogotá. Brindamos apoyo y alegría al equipo de bailarines, artistas y
-              producción, creando momentos de conexión y bienestar para todos los involucrados. </p>
-            <a href="./assets/pages/perros-de-apoyo-emocional-en-el-circo-del-sol-bogota.html"
-              class="btn btn-main-cards">Ver Galería</a>
-          </div>
-        </div>
-        <div class="card cardSer" style="width: 20rem;">
-          <img src="./assets/images/banner3.jpg" class="card-img-top img-card" alt="perro en terapia y apoyo emocional">
-          <div class="card-body card-body-index h-100">
-            <h1 class="card-title">Concierto de Dua Lipa en Bogotá</h1>
-            <p class="card-text"> En el emocionante concierto de Dua Lipa en Bogotá, nuestros perros de terapia y apoyo
-              emocional estuvieron presentes para ofrecer su amor incondicional y brindar un ambiente positivo a los
-              bailarines, artistas y todo el equipo de producción. Contribuimos a crear una experiencia memorable llena
-              de afecto y armonía.</p>
-            <a href="./assets/pages/perros-de-apoyo-emociona-en-concierto-de-dua-lipa.html"
-              class="btn btn-main-cards">Ver Galería</a>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="sedes">
-        <h2 class="titulo2">Conoce Nuestras Sedes</h2>
-        <div class="container cardSedes">
-          <div class="card cardSede" style="width: 15rem;">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.2589207863234!2d-74.08446202563294!3d4.725027841447459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4077637af4e9a5%3A0xcdbd7f75c9088b6c!2sCanBridge%20Colegio%20Canino%20%7C%20Guarder%C3%ADa%20Canina!5e0!3m2!1sen!2sco!4v1706029910710!5m2!1sen!2sco"
-              width="240" height="150" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div class="card-body card-body-index h-100">
-              <h1 class="card-title">Bogotá</h1>
-              <p class="card-text"></p>
-              <a href="https://maps.app.goo.gl/LHBVjdtHHCZLRKEP9" class="btn btn-main-cards"><i
-                  class="bi bi-geo-alt"></i>
-                Ubicacion</a>
-            </div>
-          </div>
-          <div class="card cardSede" style="width: 15rem;">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.579950869692!2d-74.0700232256326!3d4.841951540418138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f8794de2f02fb%3A0x800b06946b4e7f69!2sPet%20Station!5e0!3m2!1sen!2sco!4v1706029587377!5m2!1sen!2sco"
-              width="240" height="150" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div class="card-body card-body-index h-100">
-              <h1 class="card-title">Chía</h1>
-              <p class="card-text"></p>
-              <a href="https://maps.app.goo.gl/776fWCLrGS7MWwRN9" class="btn btn-main-cards"><i
-                  class="bi bi-geo-alt"></i>
-                Ubicacion</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <section>
-        <h1 class="titulo">Galería Fotográfica</h1>
-
-        <div class="owl-carousel owl-theme">
-          <div class="item"><img src="./assets/images/1-min.jpeg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/10-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/11-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/12-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/13-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/14-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/15-min.jpeg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/16-min.jpeg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/2-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/3-min.jpeg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/37-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/38-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/39-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/4-6ce494d-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/4-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/40-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/41-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/54-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/55-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/56-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/58-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/59-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/6-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/60-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/62-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/69-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/7-min.jpeg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/71-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/72-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/8-min.jpeg" alt="Guarderia canina en chia y bogotá"></div>
-          <div class="item"><img src="./assets/images/9-min.jpg" alt="Guarderia canina en chia y bogotá"></div>
-        </div>
-
-      </section>
-  </main>
-
-  <footer class="footer-07">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-12 text-center">
-          <h2 class="footer-heading"><a href="#" class="logo">CanBridge</a></h2>
-          <p class="menu">
-            <a href="#">Inicio</a>
-            <a href="./assets/pages/guarderia-canina.html">Guarderia Canina</a>
-            <a href="./assets/pages/adiestramiento-canino.html">Adiestramiento Canino</a>
-            <a href="./assets/pages/perros-de-apoyo-emocional.html">Perros de terapia y Apoyo Emocional</a>
-          </p>
-          <ul class="ftco-footer-social p-0">
-            <li class="ftco-animate"><a href="https://www.tiktok.com/@can_bridge?is_from_webapp=1&sender_device=pc"
-                data-toggle="tooltip" data-placement="top" title="TikTok"><span><i class="bi bi-tiktok"></i></span></a>
-            </li>
-            <li class="ftco-animate"><a href="https://www.facebook.com/CanBridge" data-toggle="tooltip"
-                data-placement="top" title="Facebook"><span><i class="bi bi-facebook"></i></span></a></li>
-            <li class="ftco-animate"><a href="https://www.instagram.com/can_bridge/" data-toggle="tooltip"
-                data-placement="top" title="Instagram"><span><i class="bi bi-instagram"></i></span></a></li>
-            <li class="ftco-animate"><a href="https://wa.me/+573173663438" data-toggle="tooltip" data-placement="top"
-                title="WhatsApp"><span><i class="bi bi-whatsapp"></i></span></a></li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 border-bottom">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#" aria-label="Inicio CanBridge">
+          <h1 class="m-0" style="font-family:Poppins; font-weight:800; letter-spacing:.4px;">
+            <span class="text-danger">Can</span><span class="text-dark">Bridge</span>
+          </h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="./assets/pages/guarderia-canina.html">Guardería</a></li>
+            <li class="nav-item"><a class="nav-link" href="./assets/pages/adiestramiento-canino.html">Adiestramiento</a></li>
+            <li class="nav-item"><a class="nav-link" href="./assets/pages/perros-de-apoyo-emocional.html">Terapia & Apoyo</a></li>
+            <li class="nav-item ms-lg-3"><a class="btn btn-danger" href="https://wa.me/+573173663438" target="_blank" rel="noreferrer">Reserva por WhatsApp</a></li>
           </ul>
         </div>
       </div>
-      <!-- Línea de separación -->
-    <hr class="footer-line-separator">
+    </nav>
 
-    <div class="row">
-      <div class="col-md-6 text-left">
-        <p class="copyright">
-          Copyright &copy; <script>document.write(new Date().getFullYear());</script> Todos los derechos reservados
-        </p>
+    <!-- HERO (Swiper) -->
+    <div class="position-relative">
+      <div class="swiper hero-swiper" id="heroSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./assets/images/banner1.jpeg" alt="Zonas verdes para perros en CanBridge"></div>
+          <div class="swiper-slide"><img src="./assets/images/banner2.jpeg" alt="Ruta puerta a puerta segura"></div>
+          <div class="swiper-slide"><img src="./assets/images/banner6.jpeg" alt="Entrenamiento canino positivo"></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
       </div>
-      <div class="col-md-6 text-right">
-        <p class="desarrollado-por">
-          Desarrollado por <a href="https://marcapro.netlify.app/" target="_blank">MarcaPro</a>
-        </p>
+      <div class="hero-overlay"></div>
+      <div class="hero-copy">
+        <div>
+          <p class="kicker mb-2">Más juego, menos tiempo en ruta</p>
+          <h2 class="display-5 fw-bold mb-2">Guardería y Colegio Canino en Bogotá y Chía</h2>
+          <p class="lead mb-4">Dos sedes campestres, socialización segura y ruta puerta a puerta.</p>
+          <div class="d-flex gap-2 justify-content-center">
+            <a href="#servicios" class="btn btn-light">Ver servicios</a>
+            <a href="https://wa.me/+573173663438" class="btn btn-danger" target="_blank" rel="noreferrer"><i class="bi bi-whatsapp me-1"></i> Cotizar ahora</a>
+          </div>
+        </div>
       </div>
     </div>
-      
+  
+  </header>
+
+  <main>
+    <!-- FEATURES -->
+    <section class="section section-light">
+      <div class="container">
+        <div class="row row-cols-2 row-cols-md-5 g-3 text-center">
+          <div class="col"><div class="feature-pill h-100"><i class="bi bi-shield-check"></i><p class="mb-0 fw-medium">Cuidado profesional</p></div></div>
+          <div class="col"><div class="feature-pill h-100"><i class="bi bi-heart"></i><p class="mb-0 fw-medium">Entrenamiento positivo</p></div></div>
+          <div class="col"><div class="feature-pill h-100"><i class="bi bi-houses"></i><p class="mb-0 fw-medium">Ambiente seguro</p></div></div>
+          <div class="col"><div class="feature-pill h-100"><i class="bi bi-truck"></i><p class="mb-0 fw-medium">Ruta puerta a puerta</p></div></div>
+          <div class="col"><div class="feature-pill h-100"><i class="bi bi-emoji-smile"></i><p class="mb-0 fw-medium">Atención personalizada</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="section">
+      <div class="container">
+        <h2 class="text-center mb-5 section-title">Nuestros Servicios</h2>
+        <div class="row g-4">
+          <div class="col-12 col-md-4">
+            <div class="card card-raise h-100">
+              <img src="./assets/images/guarderia-canina-bogota.jpg" class="card-img-top" alt="Adiestramiento canino en Chía y Bogotá" />
+              <div class="card-body d-flex flex-column">
+                <span class="badge-accent mb-2">Método positivo</span>
+                <h3 class="h5">Adiestramiento Canino Profesional</h3>
+                <p class="flex-grow-1">Obediencia, autocontrol y convivencia para resultados duraderos y un vínculo más fuerte.</p>
+                <div class="d-flex gap-2">
+                  <a href="./assets/pages/adiestramiento-canino.html" class="btn btn-outline-dark">Más información</a>
+                  <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal3">Precios</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card card-raise h-100">
+              <img src="./assets/images/apoyo-emocional-terapia.jpg" class="card-img-top" alt="Perros de terapia y apoyo emocional" />
+              <div class="card-body d-flex flex-column">
+                <span class="badge-accent mb-2">Bienestar</span>
+                <h3 class="h5">Perros de Terapia y Apoyo Emocional</h3>
+                <p class="flex-grow-1">Programas certificados para empresas, hospitales y eventos especiales.</p>
+                <div class="d-flex gap-2">
+                  <a href="./assets/pages/perros-de-apoyo-emocional.html" class="btn btn-outline-dark">Más información</a>
+                  <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal2">Precios</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card card-raise h-100">
+              <img src="./assets/images/guarderia-canina-bogota-chia.jpeg" class="card-img-top" alt="Guardería Canina en Bogotá y Chía" />
+              <div class="card-body d-flex flex-column">
+                <span class="badge-accent mb-2">Socialización</span>
+                <h3 class="h5">Guardería Canina</h3>
+                <p class="flex-grow-1">Zonas verdes y actividades diarias para un día equilibrado y feliz.</p>
+                <div class="d-flex gap-2">
+                  <a href="./assets/pages/guarderia-canina.html" class="btn btn-outline-dark">Más información</a>
+                  <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Precios</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROPUESTA DE VALOR -->
+    <section class="section section-light">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6">
+            <h2 class="section-title">Nuestro compromiso: más tiempo de diversión para tu perro</h2>
+            <p class="section-sub">Dos sedes estratégicas reducen los tiempos de transporte para que tu peludo disfrute más horas de juego y socialización.</p>
+          </div>
+          <div class="col-lg-6">
+            <div class="value-img">
+              <img src="./assets/images/41-min.jpg" alt="Perros jugando en CanBridge" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENTOS ESPECIALES -->
+    <section class="section">
+      <div class="container">
+        <h2 class="text-center mb-5 section-title">Experiencias en eventos especiales</h2>
+        <div class="row g-4 justify-content-center">
+          <div class="col-12 col-md-6 col-lg-5">
+            <div class="card event-card h-100 card-raise">
+              <img src="./assets/images/circodelsol14.jpg" class="card-img-top" alt="Perros de terapia en el Circo del Sol Bogotá" />
+              <div class="card-body d-flex flex-column">
+                <h3 class="h6">Circo del Sol en Bogotá</h3>
+                <p class="flex-grow-1">Acompañamos a artistas y producción con sesiones de apoyo emocional.</p>
+                <a href="./assets/pages/perros-de-apoyo-emocional-en-el-circo-del-sol-bogota.html" class="btn btn-outline-dark mt-auto">Ver galería</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-5">
+            <div class="card event-card h-100 card-raise">
+              <img src="./assets/images/banner3.jpg" class="card-img-top" alt="Perros de apoyo emocional en concierto de Dua Lipa Bogotá" />
+              <div class="card-body d-flex flex-column">
+                <h3 class="h6">Concierto de Dua Lipa</h3>
+                <p class="flex-grow-1">Creamos un ambiente positivo para bailarines y equipo técnico.</p>
+                <a href="./assets/pages/perros-de-apoyo-emociona-en-concierto-de-dua-lipa.html" class="btn btn-outline-dark mt-auto">Ver galería</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEDES -->
+    <section class="section section-light">
+      <div class="container">
+        <h2 class="text-center mb-5 section-title">Conoce nuestras sedes</h2>
+        <div class="row g-4 justify-content-center">
+          <div class="col-12 col-md-6 col-lg-5">
+            <div class="card h-100 card-raise">
+              <div class="ratio ratio-4x3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.2589207863234!2d-74.08446202563294!3d4.725027841447459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4077637af4e9a5%3A0xcdbd7f75c9088b6c!2sCanBridge%20Colegio%20Canino%20%7C%20Guarder%C3%ADa%20Canina!5e0!3m2!1sen!2sco!4v1706029910710!5m2!1sen!2sco" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa sede Bogotá"></iframe>
+              </div>
+              <div class="card-body">
+                <h3 class="h6">Bogotá</h3>
+                <a href="https://maps.app.goo.gl/LHBVjdtHHCZLRKEP9" class="btn btn-danger" target="_blank" rel="noreferrer"><i class="bi bi-geo-alt me-1"></i>Ubicación</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-5">
+            <div class="card h-100 card-raise">
+              <div class="ratio ratio-4x3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.579950869692!2d-74.0700232256326!3d4.841951540418138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f8794de2f02fb%3A0x800b06946b4e7f69!2sPet%20Station!5e0!3m2!1sen!2sco!4v1706029587377!5m2!1sen!2sco" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa sede Chía"></iframe>
+              </div>
+              <div class="card-body">
+                <h3 class="h6">Chía</h3>
+                <a href="https://maps.app.goo.gl/776fWCLrGS7MWwRN9" class="btn btn-danger" target="_blank" rel="noreferrer"><i class="bi bi-geo-alt me-1"></i>Ubicación</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="section">
+      <div class="container">
+        <h2 class="text-center mb-5 section-title">Galería fotográfica</h2>
+        <div class="swiper gallery-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./assets/images/1-min.jpeg" alt="Guardería canina en Bogotá" /></div>
+            <div class="swiper-slide"><img src="./assets/images/10-min.jpg" alt="Zona verde para perros" /></div>
+            <div class="swiper-slide"><img src="./assets/images/11-min.jpg" alt="Socialización segura" /></div>
+            <div class="swiper-slide"><img src="./assets/images/12-min.jpg" alt="Colegio canino" /></div>
+            <div class="swiper-slide"><img src="./assets/images/13-min.jpg" alt="Entrenamiento positivo" /></div>
+            <div class="swiper-slide"><img src="./assets/images/14-min.jpg" alt="Entrenamiento positivo" /></div>
+            <div class="swiper-slide"><img src="./assets/images/15-min.jpg" alt="Entrenamiento positivo" /></div>
+            <div class="swiper-slide"><img src="./assets/images/16-min.jpg" alt="Entrenamiento positivo" /></div>
+            <div class="swiper-slide"><img src="./assets/images/37-min.jpg" alt="Entrenamiento positivo" /></div>
+            <div class="swiper-slide"><img src="./assets/images/38-min.jpg" alt="Entrenamiento positivo" /></div>
+            <div class="swiper-slide"><img src="./assets/images/39-min.jpg" alt="Entrenamiento positivo" /></div>
+            <div class="swiper-slide"><img src="./assets/images/40-min.jpg" alt="Entrenamiento positivo" /></div>
+            <div class="swiper-slide"><img src="./assets/images/41-min.jpg" alt="Entrenamiento positivo" /></div>
+            <div class="swiper-slide"><img src="./assets/images/54-min.jpg" alt="Entrenamiento positivo" /></div>
+
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="section section-light">
+      <div class="container text-center">
+        <h3 class="fw-bold mb-3">¿Listo para conocer CanBridge?</h3>
+        <p class="mb-4 text-muted">Escríbenos y agenda una visita a la sede más cercana.</p>
+        <a href="https://wa.me/+573173663438" class="btn btn-danger btn-lg" target="_blank"><i class="bi bi-whatsapp me-1"></i> Reservar por WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER ROJO -->
+  <footer class="footer-red pt-5 pb-4">
+    <div class="container text-center">
+      <h2 class="h5 fw-bold mb-3">CanBridge</h2>
+      <nav class="mb-3 small d-flex flex-wrap justify-content-center gap-3">
+        <a href="#">Inicio</a>
+        <a href="./assets/pages/guarderia-canina.html">Guardería Canina</a>
+        <a href="./assets/pages/adiestramiento-canino.html">Adiestramiento</a>
+        <a href="./assets/pages/perros-de-apoyo-emocional.html">Terapia & Apoyo Emocional</a>
+      </nav>
+      <ul class="list-unstyled d-flex justify-content-center gap-3 fs-5 mb-3">
+        <li><a href="https://www.tiktok.com/@can_bridge?is_from_webapp=1&sender_device=pc" target="_blank" aria-label="TikTok"><i class="bi bi-tiktok"></i></a></li>
+        <li><a href="https://www.facebook.com/CanBridge" target="_blank" aria-label="Facebook"><i class="bi bi-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/can_bridge/" target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a></li>
+        <li><a href="https://wa.me/+573173663438" target="_blank" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a></li>
+      </ul>
+      <hr class="hr-soft" />
+      <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 small">
+        <p class="m-0">&copy; <span id="year"></span> Todos los derechos reservados</p>
+        <p class="m-0">Desarrollado por <a href="https://marcapro.agency" target="_blank" rel="noreferrer">MarcaPro</a></p>
+      </div>
     </div>
-    
   </footer>
 
-  <div class="whatsapp-button">
-    <a class="linkChat" href="https://wa.me/+573173663438" target="_blank">
-      <i class="bi bi-whatsapp chat"></i>
-    </a>
-  </div>
+  <!-- WhatsApp flotante -->
+  <a class="btn-whatsapp" href="https://wa.me/+573173663438" target="_blank" aria-label="Abrir WhatsApp"><i class="bi bi-whatsapp fs-4"></i></a>
 
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-  <script src="./main.js"></script>
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script>
-    $('.owl-carousel').owlCarousel({
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Hero
+    
+new Swiper('#heroSwiper', {
+  loop: true,
+  autoplay: { delay: 4500, disableOnInteraction: false },
+  speed: 700,
+  pagination: { el: '.hero-swiper .swiper-pagination', clickable: true }
+});
+
+    // Galería
+    new Swiper('.gallery-swiper', {
       loop: true,
-      margin: 10,
-      nav: true,
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 3
-        },
-        1000: {
-          items: 5
-        }
-      }
-    })
+      autoplay: { delay: 3000, disableOnInteraction: false },
+      slidesPerView: 1,
+      spaceBetween: 12,
+      pagination: { el: '.gallery-swiper .swiper-pagination', clickable: true },
+      navigation: { nextEl: '.gallery-swiper .swiper-button-next', prevEl: '.gallery-swiper .swiper-button-prev' },
+      breakpoints: { 576:{slidesPerView:2}, 992:{slidesPerView:4}, 1200:{slidesPerView:5} }
+    });
   </script>
 </body>
-
 </html>
