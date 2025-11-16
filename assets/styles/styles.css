@@ -18,7 +18,14 @@ html {
 body {
     font-family: "Poppins", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
     color: var(--text);
-    background: #fafbfc
+    background: #fafbfc;
+    padding-top: 80px;  
+}
+
+@media (max-width: 991.98px) {
+    body {
+        padding-top: 72px;  /* un poco menos en móvil si el nav es más compacto */
+    }
 }
 
 img {
@@ -29,8 +36,17 @@ img {
 
 /* Navbar */
 .navbar {
-    --bs-navbar-padding-y: 1rem
+    --bs-navbar-padding-y: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1050;              /* por encima de sliders, cards, etc. */
+    background-color: #ffffff;  /* para que no se vea transparente al hacer scroll */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .06); /* sutil sombra opcional */
 }
+
+
 
 .navbar-brand h1 {
     letter-spacing: .6px
@@ -172,7 +188,8 @@ img {
 
 /* Secciones */
 .section {
-    padding-block: 56px
+    padding-block: 56px;
+    scroll-margin-top: 90px; /* espacio para que no quede debajo del navbar */
 }
 
 .section-light {
